@@ -1,10 +1,10 @@
 import React from "react";
-import { Product } from "./product.interface";
+import { IProduct } from "./product.interface";
 
-export interface ProductCardProps { 
-  card: Product;   
+export interface IProductCardProps { 
+  card: IProduct;   
 }
 
-export interface ProductCardGridProps {
+export interface IProductCardGridProps {
   children: React.ReactNode;
 }
